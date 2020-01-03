@@ -1,1 +1,40 @@
 @import '~bootstrap/scss/bootstrap';
+
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background: rgb(31,231,233);
+  background: linear-gradient(0deg, rgba(31,231,233,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.buttons {
+  display: inline-flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+#index, #show{
+  margin: 10px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-shadow: 2px 2px rgba(31,231,233,1);
+}
+
+.items {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}

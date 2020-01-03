@@ -5,13 +5,13 @@ const booksUrl = apiUrl + '/books'
 
 const index = function() {
   return $.ajax({
-    url: url
+    url: booksUrl
   })
 }
 
 const show = function(id) {
   return $.ajax({
-    url: url + '/' + id
+    url: booksUrl + '/' + id
   })
 }
 

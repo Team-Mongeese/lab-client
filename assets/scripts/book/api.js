@@ -1,6 +1,7 @@
 'use strict'
 const config = require('../config')
-const url = "https://wdi-library-api.herokuapp.com/books"
+const apiUrl = config.apiUrl
+const booksUrl = apiUrl + '/books'
 
 const index = function() {
   return $.ajax({
